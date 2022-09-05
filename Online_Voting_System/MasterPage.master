@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 99px;
+        }
+        .scolor
+        {background-color:Green;
+         color:White
+         }
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table style="width:1000px;margin:0 auto">
+    <tr  style="width:1000px;height:50px">
+    <td style="width:60px">
+    <img src="images/fdp.jpg" alt="fed" style="height: 45px" />
+    </td>
+    <td style="width:880px;" class="scolor"><marquee behavior="scroll" scrolldelay="20"><h3>WELCOME TO APPLIED SCIENCE VOTING SYSTEM</h3></marquee></td>
+    <td style="width:60px;text-align:right" >
+      <img src="images/fdp.jpg" alt="fed" style="height: 45px" />
+    </td>
+    </tr>
+    <tr style="width:1100px;height:40px;background-color:Green" >
+    <td colspan="3" align="center">
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+            <StaticMenuItemStyle Font-Size="Large" ForeColor="White" 
+                HorizontalPadding="30px" />
+            <StaticHoverStyle BackColor="#339966" ForeColor="White" />
+            <Items>
+                <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Index.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Voters" Value="Voters" NavigateUrl="~/Registration.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Candidate" Value="Candidate" NavigateUrl="~/CandidateReg.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Admin" Value="Admin" NavigateUrl="~/Login.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Login" Value="Login" NavigateUrl="~/Login.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="About Us" Value="About Us" NavigateUrl="~/About Us.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Result" Value="Result" NavigateUrl="~/Resultpage.aspx"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    </td>
+    </tr>
+    <tr style="width:1000px;height:100px">
+    <td colspan="3"> <img src="images/banner.jpg" alt=""style="width:995px" /></td>
+    </tr>
+    <tr style="width:1100px">
+    <td colspan="3">
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </td>
+    </tr>
+    <tr style="width:1100px;height:20px;background-color:Green;text-align:center;color:White">
+    <td colspan="3">
+   &copy; 2017 Project
+    </td>
+    </tr>
+    </table>
+       
+    </form>
+</body>
+</html>
