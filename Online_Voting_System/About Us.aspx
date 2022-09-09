@@ -6,7 +6,6 @@
      <tr style="width:1000px">
        <td style="width:100px; height:20px; ">
 <img src="images/vote1_NEW.png" alt="vote" style="width: 288px; height: 238px;" /></td>
-      
       <td>
             <table align="left" style="width: 316px; height: 205px;" >
             <tr><td><marquee behavior="scroll" scrolldelay="20"></marquee></td></tr>
