@@ -10,7 +10,6 @@
             <table align="left" style="width: 316px; height: 205px;" >
             <tr><td><marquee behavior="scroll" scrolldelay="20"></marquee></td></tr>
             <td>
-            
             <h2>About Us </h2>
 			<div >
                 <p>
