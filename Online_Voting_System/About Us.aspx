@@ -17,7 +17,10 @@
 			lever and optical-scan machines. Electronic voting systems provide some characteristic different from the traditional 
 			voting technique, and also it provides improved features of voting system over traditional voting system such as 
 			accuracy, convenience, flexibility, privacy, verifiability and mobility. Online Voting System is a voting system by 
-			which any Voter can use his/her voting rights from anywhere in the country. We provide a detailed description of the functional and performance characteristics of online voting system. Voter can cast their votes from anywhere in the country without visiting the voting booths, in highly secured way. That makes voting a fearless of violence and that increases the percentage of voting.
+			which any Voter can use his/her voting rights from anywhere in the country. We provide a detailed description of the 
+			functional and performance characteristics of online voting system. Voter can cast their votes from anywhere in the 
+			country without visiting the voting booths, in highly secured way. That makes voting a fearless of violence and that 
+			increases the percentage of voting.
                 </p>
                 <div>
                 </div>
