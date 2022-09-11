@@ -7,8 +7,7 @@
 <tr><!----- First Datarow ---->
 <td>
  <div align="left">
-<asp:Table ID="Table1" runat="server">
-    
+<asp:Table ID="Table1" runat="server"> 
     <asp:TableRow>
     <asp:TableCell>
  
