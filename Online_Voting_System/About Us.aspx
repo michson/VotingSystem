@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="About Us.aspx.cs" Inherits="About_Us" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="About Us.aspx.cs" Inherits="About_Us" Title="Untitled Page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
  </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -11,8 +11,7 @@
             <tr><td><marquee behavior="scroll" scrolldelay="20"></marquee></td></tr>
             <td>
             <h2>About Us </h2>
-			<div >
-				
+			<div >	
                 <p>
 			Voting schemes have evolved from counting hands in early days to systems that include paper, punch card, mechanical 
 			lever and optical-scan machines. Electronic voting systems provide some characteristic different from the traditional 
