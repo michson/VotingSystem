@@ -18,6 +18,7 @@
                      <asp:TextBox ID="txtName" runat="server" 
                             style="position: relative; top: 0px; left: 0px; width: 160px;"></asp:TextBox>
                         </td>
+                  
                 </tr>         
                  <tr>
                     <td style="text-align: right;" class="style1">
