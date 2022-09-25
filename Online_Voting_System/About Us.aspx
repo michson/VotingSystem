@@ -13,6 +13,7 @@
             <h2>About Us </h2>
 			<div >	
                 <p>
+
 			Voting schemes have evolved from counting hands in early days to systems that include paper, punch card, mechanical 
 			lever and optical-scan machines. Electronic voting systems provide some characteristic different from the traditional 
 			voting technique, and also it provides improved features of voting system over traditional voting system such as 
