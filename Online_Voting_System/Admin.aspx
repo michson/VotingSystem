@@ -10,7 +10,6 @@
 <asp:Table ID="Table1" runat="server"> 
     <asp:TableRow>
     <asp:TableCell>
- 
 		<ul>
 			<li>
 				<h2>Menu</h2>
