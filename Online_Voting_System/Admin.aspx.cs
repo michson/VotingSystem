@@ -12,7 +12,6 @@ using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
 using System.Data.SqlClient;
 
-
 public partial class _Default : System.Web.UI.Page
 {
     protected void btnStatElec_Click(object sender, EventArgs e)
